@@ -1,11 +1,11 @@
 {
-    "name": "vendor-name/package-name",
-    "description": "package description here",
+    "name": "bronto/magento-package",
+    "description": "This is for reference",
     "license": "MIT",
     "authors": [
         {
             "name": "Author Name",
-            "email": "author@email.com"
+            "email": "kumarmanish@rediffmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -18,17 +18,17 @@
     },
     "autoload": {
         "psr-4": {
-            "TheTestCoder\\PhpPackageStructure\\": "src"
+            "Bronto\\StarterPackage\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TheTestCoder\\PhpPackageStructure\\Tests\\": "tests"
+            "Bronto\\StarterPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
-        "test": "vendor\\bin\\phpunit",
-        "phpunit": "vendor/bin/phpunit",
+        "test": "vendor//bin//phpunit",
+        "phpunit": "./vendor/bin/phpunit",
         "coverage-test": "vendor\\bin\\phpunit --coverage-html /test-reports/coverage",
         "format": "vendor\\bin\\php-cs-fixer fix"
     },

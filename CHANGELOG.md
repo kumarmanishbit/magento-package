@@ -1,7 +1,7 @@
 # Changelog
 
-All notable changes to `package-name` will be documented in this file.
+All notable changes to `magento-package` will be documented in this file.
 
-## 1.0.0 - 202Y-DD-MM
+## 1.0.0 - 2021-21-07
 
-- Release Message
+- First Release
