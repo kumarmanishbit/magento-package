@@ -29,9 +29,7 @@ return $config
         'phpdoc_single_line_var_spacing' => true,
         'phpdoc_var_without_name' => true,
         'class_attributes_separation' => [
-            'elements' => [
-                'method',
-            ],
+            'elements' => ['method' => 'one'],
         ],
         'method_argument_space' => [
             'on_multiline' => 'ensure_fully_multiline',
